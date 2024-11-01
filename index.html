@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Ticketing</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- tailwind link here -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="sm:overflow-x-hidden">
+    <!-- navbar start here -->
+    <section>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Item 1</a></li>
+              <li>item 2</li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Item 1</a></li>
+            <li>
+              <a>Item 2</a>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="flex gap-2">
+            <a class="btn btn-ghost">Bus <img src="images/bus-icon.png" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- navbar end here -->
+    <!-- banner section start here -->
+     <!-- banner section topper part start here -->
+      <div class="relative">
+    <section class="flex justify-center">
+      <div id="header-banner" class="banner text-3xl text-white text-center sm:h-44">
+        <h1 class="lg:text-6xl sm: text-xl text-black">
+          End-to-End Travel With <br />
+          <span class="text-[#1DD100]">P Paribahan</span>
+        </h1>
+      </div>
+    </section>
+    <!-- banner section topper part end here -->
+     <!-- banner section lower part start here -->
+     <!-- flex gap-3 lg:absolute top-[88%] right-1/4 -->
+    <div class="lg:flex lg:absolute lg:bottom-[-10%] right-[29%] gap-3 sm:mt-7">
+      
+      <!-- div 1 -->
+      <div class="flex gap-3 mb-2 shadow-2xl bg-rose-50 rounded-lg p-8">
+        <img src="images/people.png" alt="">
+        <div>
+          <h3 class="font-bold text-3xl">500K+</h3>
+          <p>Registered Users</p>
+        </div>
+      </div>
+      <!-- div2 -->
+      <div class="flex gap-3 shadow-lg mb-2 bg-rose-50 rounded-lg p-8">
+        <img src="images/ticket-cupon.png" alt="">
+        <div>
+          <h3 class="font-bold text-3xl">1.7 lacks</h3>
+          <p>Tickets sold</p>
+        </div>
+      </div>
+      <!-- div3 -->
+      <div class="flex gap-3 shadow-lg bg-rose-50 rounded-lg p-8">
+        <img src="images/stoppage.png" alt="">
+        <div>
+          <h3 class="font-bold text-3xl">80K+</h3>
+          <p>Rental Prtners</p>
+        </div>
+      </div>
+    </div>
+    <!-- banner section lower part end here -->
+  </div>
+     <!-- banner section end here -->
+      <!-- offer section start here -->
+      <section class="mt-20 lg:flex justify-around gap-3">
+        <!-- discount 1 -->
+        <div class="flex flex-col lg:flex-row bg-orange-600 text-center rounded-3xl mb-3">
+          <div class="flex flex-col items-center justify-center p-5 flex-1">
+            <h3 class="lg:text-8xl sm:text-3xl text-xl font-bold">15% OFF</h3>
+            <p class="font-bold text-3xl">on your next purchase</p>
+            <p class="text-2xl">use by January 2024</p>
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/info-devider.png" alt="" class="hidden lg:block mx-5"> <!-- Hide on small screens -->
+          </div>
+          <div class="flex flex-col items-center justify-center p-5 flex-1">
+            <h3 class="text-6xl font-bold">NEW<sub>15</sub></h3>
+            <p class="text-3xl">cupon Code</p>
+          </div>
+        </div>
+        
+        <!-- discount 2 -->
+        <div class="flex flex-col lg:flex-row bg-orange-600 text-center rounded-3xl mb-3">
+          <div class="flex flex-col items-center justify-center p-5 flex-1">
+            <h3 class="lg:text-8xl sm:text-3xl text-xl font-bold">15% OFF</h3>
+            <p class="font-bold text-3xl">on your next purchase</p>
+            <p class="text-2xl">use by January 2024</p>
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="images/info-devider.png" alt="" class="hidden lg:block mx-5"> <!-- Hide on small screens -->
+          </div>
+          <div class="flex flex-col items-center justify-center p-5 flex-1">
+            <h3 class="text-6xl font-bold">NEW<sub>15</sub></h3>
+            <p class="text-3xl">cupon Code</p>
+          </div>
+        </div>     
+      </section>
+        <!-- offer section end here -->
+         <!-- button start-->
+      <div class="flex justify-center w-full mt-5">
+        <button class="btn btn-outline btn-success font-semibold text-2xl">See All Offers</button>
+      </div>
+      <!-- button end -->
+     
+
+     
+         
+  </body>
+</html>

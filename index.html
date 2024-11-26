@@ -204,7 +204,7 @@
                 <img class="h-8" src="images/seat-green-filled.png" alt="" />
               </div>
               <div>
-                <p><span>40</span>Seats left</p>
+                <p><span id="seat-leaft">40</span>Seats left</p>
               </div>
             </div>
             <!-- hader part2 end -->
@@ -273,72 +273,85 @@
           </div>
 
           <!-- Seat layout -->
-          <div class=" shadow-2xl p-4 rounded-lg flex justify-center">
-            <!-- Rows from A to J -->
-            <div class="flex gap-3">
-              <div>
-                <div class=" p-3 rounded m-3">A</div>
-                <div class=" p-3 rounded m-3">B</div>
-                <div class=" p-3 rounded m-3">C</div>
-                <div class=" p-3 rounded m-3">D</div>
-                <div class=" p-3 rounded m-3">E</div>
-                <div class=" p-3 rounded m-3">F</div>
-                <div class=" p-3 rounded m-3">G</div>
-                <div class=" p-3 rounded m-3">H</div>
-                <div class=" p-3 rounded m-3">I</div>
-                <div class=" p-3 rounded m-3">J</div>
-                
+          <div class="text-right p-5">
+            <button class=" text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded">
+              DRIVER
+            </button>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-8 p-5">
+            <!-- Column 1 -->
+           <div class="grid grid-cols-3 gap-4">   
+            <div class="grid grid-cols-1 gap-4 p-4 rounded-lg shadow-md mr-10 font-bold">
+              <button>A</button>
+              <button>B</button>
+              <button>C</button>
+              <button>D</button>
+              <button>E</button>
+              <button>F</button>
+              <button>G</button>
+              <button>H</button>
+              <button>I</button>
+              <button>J</button>
+            </div>
+          
+           
+            <div class="grid grid-cols-1 gap-4">
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">A1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">B1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">C1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">D1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">E1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">F1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">G1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">H1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">I1</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">J1</button>
+            </div>
+            <div class="grid grid-cols-1 gap-4">
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">A2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">B2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">C2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">D2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">E2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">F2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">G2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">H2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">I2</button>
+              <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">J2</button>
+            </div>
+           </div>
+           <!-- --------------------------------------------------------------------------------------------- -->
+            <div class="grid grid-cols-2 gap-4 ml-20">
+              <div class="grid grid-cols-1 gap-4">
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">A3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">B3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">C3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">D3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">E3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">F3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">G3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">H3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">I3</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">J3</button>
               </div>
-              <div>
-                <div class="bg-gray-500 p-3 rounded m-3">A1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">B1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">C1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">D1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">E1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">F1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">G1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">H1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">I1</div>
-                <div class="bg-gray-500 p-3 rounded m-3">J1</div>
+              <div class="grid grid-cols-1 gap-4">
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">A4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">B4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">C4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">D4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">E4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">F4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">G4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">H4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">I4</button>
+                <button class="btns text-black shadow-lg bg-[#F7F8F8] text-lg font-semibold py-2 px-4 rounded hover:bg-green-700">J4</button>
               </div>
-              <div>
-                <div class="bg-gray-500 p-3 rounded m-3">A2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">B2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">C2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">D2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">E2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">F2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">G2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">H2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">I2</div>
-                <div class="bg-gray-500 p-3 rounded m-3">J2</div>
-              </div>
-              <div class="ml-32">
-                <div class="bg-gray-500 p-3 rounded m-3">A3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">B3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">C3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">D3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">E3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">F3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">G3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">H3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">I3</div>
-                <div class="bg-gray-500 p-3 rounded m-3">J3</div>
-              </div>
-              <div>
-                <div class="bg-gray-500 p-3 rounded m-3">A4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">B4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">C4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">D4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">E4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">F4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">G4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">H4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">I4</div>
-                <div class="bg-gray-500 p-3 rounded m-3">J4</div>
-              </div>             
-            </div>       
-      </div>       
+            </div>
+          
+           
+          </div>
+          
         </div>
         <!-- right section end here -->
          <!-- left section start here -->
@@ -348,34 +361,21 @@
              <!-- seat  class price section -->
              <div id="seat-number">
                <div class="flex justify-around">
-                 <h3 class="text-3xl font-bold">Seat <span>0</span></h1>
+                 <h3 class="text-3xl font-bold">Seat <span id="seat-count">0</span></h1>
                  <h3 class="text-3xl font-bold">Class</h1>
                  <h3 class="text-3xl font-bold">Price</h1>                  
                </div>
                <!-- here seat name and price added -->
                 <!-- here selected seat push here -->
-               <div class="text-3xl">
-                 <div class="flex justify-around">
-                  <h4>c2</h4>
-                  <h4>Econnomy</h4>
-                  <h4>550</h4>
-                 </div>
-                 <div class="flex justify-around">
-                  <h4>c2</h4>
-                  <h4>Econnomy</h4>
-                  <h4>550</h4>
-                 </div>
-                 <div class="flex justify-around">
-                  <h4>c2</h4>
-                  <h4>Econnomy</h4>
-                  <h4>550</h4>
-                 </div>
+               <div id="selected-seat" class="text-3xl">
+              
+               <!-- here when clicked on the seat then added seat -->
                </div>
                <hr>
                <!-- here update total price -->
                <div class="flex justify-between px-10 pr-20 text-4xl font-bold">
                 <h3>Total Price</h3>
-                <h3>$00</h3>
+                <h3>$<span id="total-price">00</span></h3>
                </div>
                <!-- cupon code field start -->
               <!-- Coupon Code Field -->
@@ -428,7 +428,7 @@
       <nav>
         <h6 class="footer-title">Download our app</h6>
        <div class="flex gap-4 text-xl font-semibold">
-       <div class="mt-5">
+       <div class="mt-5 h-full">
         <img src="images/playstore.png" alt="">
        </div>
        <div>
@@ -484,5 +484,7 @@
       </nav>
     </footer>
      <!-- footer end -->
+      <!-- scripts -->
+       <script src="script.js"></script>
   </body>
 </html>
